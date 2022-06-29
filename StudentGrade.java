@@ -1,7 +1,13 @@
  import java.util.Scanner;
  public  class StudentGrade {
     String name;
+    static int number;
     double average;
+    public void setNumber(int number) {
+        this.number=number;
+
+        
+    }
      public StudentGrade(String name,double average){
         this.name =name;
         if(average>0)
